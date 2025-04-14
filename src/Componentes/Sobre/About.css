@@ -1,0 +1,250 @@
+.about .about-article {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2.7rem;
+    margin-top: 130px;
+    gap: 3rem;
+}
+
+.about-article .logo-sparks img {
+    width: 450px;
+    margin-top: -20px;
+}
+
+.about-article .info-about {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    gap: 1.3rem;
+}
+
+.about-article .info-about h2 {
+    font-size: 2rem;
+    color: #1F2937;
+}
+
+.about-article .info-about h2 .spark {
+    font-family: 'Cinzel Decorative', sans-serif;
+    color: #0037ff;
+    font-weight: 800;
+}
+
+.about-article .info-about .paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.about-article .info-about .paragraph p {
+    color: #374151;
+}
+
+
+@media (max-width: 1024px) {
+    .about .about-article {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .about-article .logo-sparks img {
+        width: 630px;
+    }
+
+    .about-article .info-about {
+        gap: 0.9rem;
+    }
+
+    .about-article .info-about h2 {
+        font-size: 2.5rem;
+    }
+
+    .about-article .info-about .paragraph p {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 913px) {
+    .about .about-article {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .about-article .logo-sparks img {
+        width: 600px;
+    }
+
+    .about-article .info-about {
+        gap: 0.9rem;
+    }
+
+    .about-article .info-about h2 {
+        font-size: 2.5rem;
+    }
+
+    .about-article .info-about .paragraph p {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 821px) {
+    .about .about-article {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .about-article .logo-sparks img {
+        width: 600px;
+    }
+
+    .about-article .info-about {
+        gap: 0.9rem;
+    }
+
+    .about-article .info-about h2 {
+        font-size: 2.5rem;
+    }
+
+    .about-article .info-about .paragraph p {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 769px) {
+    .about .about-article {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .about-article .logo-sparks img {
+        width: 420px;
+    }
+
+    .about-article .info-about {
+        gap: 0.9rem;
+    }
+
+    .about-article .info-about h2 {
+        font-size: 2rem;
+    }
+
+    .about-article .info-about .paragraph p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 541px) {
+    .about .about-article {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .about-article .logo-sparks img {
+        width: 370px;
+    }
+
+    .about-article .info-about {
+        gap: 0.9rem;
+    }
+
+    .about-article .info-about h2 {
+        font-size: 1.6rem;
+    }
+
+    .about-article .info-about .paragraph p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 431px) {
+    .about .about-article {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .about-article .logo-sparks img {
+        width: 320px;
+    }
+
+    .about-article .info-about {
+        gap: 0.9rem;
+    }
+
+    .about-article .info-about h2 {
+        font-size: 1.4rem;
+    }
+
+    .about-article .info-about .paragraph p {
+        font-size: 0.68rem;
+    }
+}
+
+@media (max-width: 415px) {
+    .about .about-article {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .about-article .logo-sparks img {
+        width: 320px;
+    }
+
+    .about-article .info-about {
+        gap: 0.9rem;
+    }
+
+    .about-article .info-about h2 {
+        font-size: 1.4rem;
+    }
+
+    .about-article .info-about .paragraph p {
+        font-size: 0.68rem;
+    }
+}
+
+@media (max-width: 376px) {
+    .about .about-article {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .about-article .logo-sparks img {
+        width: 320px;
+    }
+
+    .about-article .info-about {
+        gap: 0.9rem;
+    }
+
+    .about-article .info-about h2 {
+        font-size: 1.4rem;
+    }
+
+    .about-article .info-about .paragraph p {
+        font-size: 0.68rem;
+    }
+}
+
+@media (max-width: 345px) {
+    .about .about-article {
+        flex-direction: column;
+        padding: 1rem;
+        margin-top: 80px;
+    }
+
+    .about-article .logo-sparks img {
+        width: 270px;
+    }
+
+    .about-article .info-about {
+        gap: 0.9rem;
+    }
+
+    .about-article .info-about h2 {
+        font-size: 1.2rem;
+    }
+
+    .about-article .info-about .paragraph p {
+        font-size: 0.6rem;
+    }
+}

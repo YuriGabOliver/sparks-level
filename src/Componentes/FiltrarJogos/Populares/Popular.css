@@ -1,0 +1,177 @@
+.popular {
+    margin-top: 50px;
+    padding: 1rem 2.7rem;
+}
+
+.popular-text-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.popular-text-top h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.popular-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.popular-item {
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 7px 14px 0px;
+}
+
+.popular-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.popular-ul {
+    list-style-type: none;
+}
+
+.popular-ul li {
+    color: #363638;
+    font-size: 0.8rem;
+}
+
+.popular-info img {
+    width: 150px;
+    height: 150px;
+    margin-top: 15px;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 7px 14px 0px;
+}
+
+.popular-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: #0037ff;
+    padding: 0.3rem;
+}
+
+.popular-name h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ededed;
+}
+
+@media (max-width: 376px) {
+    .popular-card {
+        grid-template-columns: 1fr;
+    }
+
+    .popular-info {
+        flex-direction: column-reverse;
+        gap: 1.3rem;
+    }
+
+    .popular-text-top h2 {
+        font-size: 1.4rem;
+    }
+
+}
+
+@media (max-width: 415px) {
+    .popular-card {
+        grid-template-columns: 1fr;
+    }
+
+    .popular-info {
+        flex-direction: column-reverse;
+        gap: 1.3rem;
+    }
+
+    .popular-text-top h2 {
+        font-size: 1.4rem;
+    }
+
+}
+
+@media (max-width: 431px) {
+    .popular-card {
+        grid-template-columns: 1fr;
+    }
+
+    .popular-info {
+        flex-direction: column-reverse;
+        gap: 1.3rem;
+    }
+
+    .popular-text-top h2 {
+        font-size: 1.4rem;
+    }
+
+}
+
+
+@media (max-width: 769px) {
+    .popular-card {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .popular-info {
+        flex-direction: column-reverse;
+        gap: 1.3rem;
+    }
+
+    .popular-text-top h2 {
+        font-size: 1.4rem;
+    }
+
+}
+@media (max-width: 821px) {
+    .popular-card {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .popular-info {
+        flex-direction: column-reverse;
+        gap: 1.3rem;
+    }
+
+    .popular-text-top h2 {
+        font-size: 1.4rem;
+    }
+
+}
+@media (max-width: 913px) {
+    .popular-card {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .popular-info {
+        flex-direction: column-reverse;
+        gap: 1.3rem;
+    }
+
+    .popular-text-top h2 {
+        font-size: 1.4rem;
+    }
+
+}
+@media (max-width: 541px) {
+    .popular-card {
+        grid-template-columns: 1fr;
+    }
+
+    .popular-info {
+        flex-direction: column-reverse;
+        gap: 1.3rem;
+    }
+
+    .popular-text-top h2 {
+        font-size: 1.4rem;
+    }
+
+}

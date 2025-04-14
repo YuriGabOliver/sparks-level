@@ -1,0 +1,133 @@
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    margin-top: 100px;
+}
+
+.title-top h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    color: #1F2937;
+}
+
+.title-top h1 .title-game {
+    color: #0037ff;
+}
+
+@media (max-width: 1024px) {
+    .title-top h1 {
+        font-size: 3.1rem;
+    }
+}
+
+@media (max-width: 913px) {
+    .title {
+        padding: 1.3rem;
+    }
+
+    .title-top h1 {
+        font-size: 2.85rem;
+    }
+}
+
+@media (max-width: 854px) {
+    .title {
+        padding: 1rem;
+    }
+
+    .title-top h1 {
+        font-size: 2.6rem;
+    }
+}
+
+@media (max-width: 821px) {
+    .title {
+        padding: 1rem;
+    }
+
+    .title-top h1 {
+        font-size: 2.58rem;
+    }
+}
+
+@media (max-width: 769px) {
+    .title {
+        padding: 1rem;
+    }
+
+    .title-top h1 {
+        font-size: 2.4rem;
+    }
+}
+
+@media (max-width: 541px) {
+    .title {
+        padding: 1rem;
+    }
+
+    .title-top h1 {
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 431px) {
+    .title {
+        padding: 1rem;
+    }
+
+    .title-top h1 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 415px) {
+    .title {
+        padding: 1rem;
+    }
+
+    .title-top h1 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 391px) {
+    .title {
+        padding: 1rem;
+    }
+
+    .title-top h1 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 376px) {
+    .title {
+        padding: 1rem;
+    }
+
+    .title-top h1 {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 345px) {
+    .title {
+        padding: 1rem;
+    }
+
+    .title-top h1 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 321px) {
+    .title {
+        padding: 1rem;
+    }
+
+    .title-top h1 {
+        font-size: 0.95rem;
+    }
+}
